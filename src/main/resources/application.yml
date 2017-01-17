@@ -1,0 +1,9 @@
+spring:
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    es.juanlsanchez.instant: DEBUG
